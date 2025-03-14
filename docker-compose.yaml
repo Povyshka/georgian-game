@@ -1,9 +1,9 @@
 version: '3.8'
 
 services:
-  georgianGame:
-    hostname: georgianGame
-    container_name: georgianGame
+  georgian_game:
+    hostname: georgian_game
+    container_name: georgian_game
     build:
       context: .
       dockerfile: Dockerfile
