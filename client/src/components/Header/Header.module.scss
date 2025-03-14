@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 16px;
+  background-color: #8B0000; // Темно-красный, как вино
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .title {
+    font-size: 32px;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .record {
+    font-size: 18px;
+    color: #FFD700; // Золотой цвет
+  }
+}
