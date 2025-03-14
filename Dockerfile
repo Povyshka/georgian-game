@@ -19,10 +19,10 @@ ENV GIT_SSH_COMMAND="ssh -i /root/.ssh/id_rsa -o UserKnownHostsFile=/root/.ssh/k
 WORKDIR /app
 
 # clone repo
-RUN git clone git@github.com:Povyshka/georgianGame.git
+RUN git clone git@github.com:Povyshka/georgian-game.git
 
 # change catalog
-WORKDIR /app/georgianGame/client
+WORKDIR /app/georgian-game/client
 
 # install node.js stuff
 RUN npm install
